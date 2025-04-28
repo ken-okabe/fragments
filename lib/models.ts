@@ -26,7 +26,9 @@ export type LLMModelConfig = {
 }
 
 export function getModelClient(model: LLMModel, config: LLMModelConfig) {
-  const { id: modelNameString, providerId } = model
+  // providerIdを強制的に'vertex'に書き換え
+  const { id: modelNameString } = model
+  const providerId = 'vertex'
   const { apiKey, baseURL } = config
 
   const providerConfigs = {
@@ -53,11 +55,8 @@ export function getModelClient(model: LLMModel, config: LLMModelConfig) {
       })(modelNameString),
     vertex: () =>
       createVertex({
-        googleAuthOptions: {
-          credentials: JSON.parse(
-            process.env.GOOGLE_VERTEX_CREDENTIALS || '{}',
-          ),
-        },
+        project: 'agent-kenokabe01',
+        location: 'us-central1',
       })(modelNameString),
     xai: () =>
       createOpenAI({
