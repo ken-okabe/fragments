@@ -76,34 +76,7 @@ export default function Home() {
       setErrorMessage(error.message)
     },
     onFinish: async ({ object: fragment, error }) => {
-      if (!error) {
-        // send it to /api/sandbox
-        console.log('fragment', fragment)
-        setIsPreviewLoading(true)
-        posthog.capture('fragment_generated', {
-          template: fragment?.template,
-        })
-
-        const response = await fetch('/api/sandbox', {
-          method: 'POST',
-          body: JSON.stringify({
-            fragment,
-            userID: session?.user?.id,
-            teamID: userTeam?.id,
-            accessToken: session?.access_token,
-          }),
-        })
-
-        const result = await response.json()
-        console.log('result', result)
-        posthog.capture('sandbox_created', { url: result.url })
-
-        setResult(result)
-        setCurrentPreview({ fragment, result })
-        setMessage({ result })
-        setCurrentTab('fragment')
-        setIsPreviewLoading(false)
-      }
+　
     },
   })
 
