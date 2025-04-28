@@ -50,7 +50,7 @@ export async function POST(req: Request) {
 
   // Copy code to fs
   if (fragment.code && Array.isArray(fragment.code)) {
-    fragment.code.forEach(async (file) => {
+    fragment.code.forEach(async (file: any) => {
       await sbx.files.write(file.file_path, file.file_content)
       console.log(`Copied file to ${file.file_path} in ${sbx.sandboxId}`)
     })

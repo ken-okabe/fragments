@@ -1,0 +1,57 @@
+[33m25eeee2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m WORKING WELL!!!
+[33m687ca26[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Redo auth component, add ZeroBounce E-Mail validation (#139)
+[33mf0e952f[m Added Gemini 2.5 Flash preview (#138)
+[33me2f24a4[m updated OpenAI models (#137)
+[33m2cbdc7d[m updated openai model selection (#136)
+[33m503eb01[m Support Supabase auth tokens for Sandbox creation (#133)
+[33me7ed989[m Bump next in the npm_and_yarn group across 1 directory (#135)
+[33m3fa9a84[m Bump @babel/runtime in the npm_and_yarn group across 1 directory (#123)
+[33m912d57e[m added llama4 (fireworks) (#134)
+[33m02786e1[m Merge pull request #132 from e2b-dev/rate-limit-ip
+[33m1a48b7e[m ip-based rate-limited (instead of username)
+[33mb802320[m Merge pull request #131 from e2b-dev/add-support-for-the-latest-gemini-25-model-e2b-1903
+[33mba16c5b[m updated google models
+[33m4edc69f[m Merge pull request #130 from e2b-dev/improved-rate-limit-catching
+[33m865072c[m Improves rate-limit recognition for Anthropic
+[33m25a8445[m Merge pull request #128 from e2b-dev/fixes-broken-link-readme
+[33m9b66c6f[m Fixes broken link to E2B CLI in readme
+[33mabf0c23[m Merge pull request #126 from e2b-dev/error-handling-message
+[33maac42d1[m changed comment on retry
+[33md3f44a7[m rename request limit > limit
+[33m636bea6[m removed retry logic to avoid waiting and improved rate limit error message
+[33m3dc56d6[m Merge pull request #125 from e2b-dev/error-handling
+[33m74ab69e[m improved error handling for provider-specific errors
+[33mead3f8d[m Merge pull request #124 from e2b-dev/added-readme-preview
+[33ma8cfb58[m added readme preview
+[33mad3a641[m Merge pull request #122 from e2b-dev/add-vercel-analytics-for-real-time-visitor-tracking-e2b-1877
+[33m97c63e1[m add: vercel analytics to root layout
+[33m435a0e3[m Merge pull request #118 from e2b-dev/dependabot/npm_and_yarn/npm_and_yarn-46be7da7dc
+[33meba9f89[m Bump prismjs in the npm_and_yarn group across 1 directory
+[33m92fdf58[m Merge pull request #117 from e2b-dev/gpt-4.5-preview
+[33m340c5da[m adds gpt-4.5-preview
+[33md035bc1[m Merge pull request #115 from e2b-dev/sonnet-3-7
+[33mafc3068[m added image support to haiku
+[33m09559c4[m added sonnet 3-7
+[33m30c08f7[m Merge pull request #114 from e2b-dev/mishushakov-patch-1
+[33mc8ab47c[m Update CODEOWNERS
+[33m326fba3[m Merge pull request #112 from e2b-dev/hide-local-models
+[33madce4ac[m updated env template on disabled flags
+[33mbf8c906[m updated env vars template
+[33m1c3feac[m added env var for hiding local models
+[33m5c5bd9e[m Merge pull request #109 from e2b-dev/dependabot/npm_and_yarn/npm_and_yarn-ebfa891ec1
+[33m2388bfb[m Update llama models
+[33m0dd6dd1[m Bump the npm_and_yarn group across 1 directory with 6 updates
+[33m889b374[m Merge pull request #108 from e2b-dev/dependabot/npm_and_yarn/npm_and_yarn-e4de89098a
+[33m3740dc7[m Bump svelte in the npm_and_yarn group across 1 directory
+[33m7878d11[m Merge pull request #44 from e2b-dev/dependabot/npm_and_yarn/micromatch-4.0.8
+[33me7f7006[m adds o3-mini (#106)
+[33mb2bbcbf[m add z-index on preview to account for z-indeces on chat input (#104)
+[33m5dc120f[m Add handling for pasting images into chat input (#103)
+[33mfdc23a3[m Merge pull request #102 from e2b-dev/github-banner-overlays-chat-error-banner-e2b-1472
+[33m774faed[m fix github banner overflowing error banner
+[33m69f9695[m added deepseek r1 on fireworks (#101)
+[33m2c83bb3[m Updated o1 model (#92)
+[33m11ec49c[m Merge pull request #99 from e2b-dev/fix-is-default
+[33m7d93034[m fix api key retrieval query
+[33m7b70c3d[m added DeepSeek Chat (#93)
+[33m3a310ee[m Add "Star on GitHub" banner above chat input  (#97)
