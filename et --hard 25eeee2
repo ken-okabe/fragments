@@ -55,3 +55,200 @@
 [33m7d93034[m fix api key retrieval query
 [33m7b70c3d[m added DeepSeek Chat (#93)
 [33m3a310ee[m Add "Star on GitHub" banner above chat input  (#97)
+[33m06bf87b[m fixes regression after mistral model was added (#98)
+[33m1140020[m Merge pull request #95 from e2b-dev/codestral-2501
+[33m4d8225b[m added codestral 2501
+[33m02fa2de[m Merge pull request #91 from e2b-dev/lock-version
+[33mc65a711[m Lock deps versions
+[33m9963473[m Added gemini 2.0 flash support (#90)
+[33mde6750e[m added qwen qwq (#86)
+[33mca16791[m added Gemini Experimental 1121 (#85)
+[33m7cce822[m added codeowners (#84)
+[33m3a1ee67[m added pixtral large (#83)
+[33m4e9e260[m theme toggle forwardRef
+[33m10db89d[m hydration error fix (#82)
+[33m3b8e1d2[m added Qwen2.5-Coder-32B-Instruct
+[33m2a3c071[m added haiku
+[33m6d8b298[m Update README.md
+[33m961dd04[m Update README.md
+[33mfc0d6f2[m duplicate user metadata code for existing sign-ins
+[33mf5145f8[m added user metadata
+[33m241c127[m added xAI Grok Beta
+[33m2091982[m file upload reactivity
+[33maac27a4[m new sonnet as default
+[33m10a65b7[m updated claude 3.5 sonnet
+[33m303b0c0[m improve errors
+[33ma51ddee[m v1 sdk (tracebackRaw > traceback)
+[33m92d0954[m sdk v1 + code interpreter v1 (#79)
+[33mb7f0a70[m Update README.md - minor fix
+[33m05b8c5a[m Update README.md
+[33me3065a4[m rate limit error message
+[33meda3b48[m (temp) disable multi-modal for o1 family
+[33m8687074[m Update README.md
+[33mb2a068d[m rate-limit based on user id
+[33m200586c[m added supabase id to posthog.identify
+[33mf206370[m fix: no rate-limit when custom API keys are provided
+[33m068792a[m No submit during composing text using IME (#68)
+[33m9489abb[m code: artifacts > fragments
+[33md6d1f22[m added optional env vars
+[33mc9acdc8[m updated deploy-dialog.tsx
+[33m8ce55c8[m Custom expiry (#65)
+[33m437fab0[m fragment key timeout and env for url
+[33m9e2d1e7[m env vars
+[33mf199cff[m changed deploy dialog description
+[33m947c2cc[m fixed build
+[33mffad10f[m changed publish dialog label
+[33mc6120ab[m readme: GPT engineer link
+[33m86364b7[m renamed to fragments
+[33mad78b4d[m renamed to fragments
+[33m816e16d[m Redesign (#59)
+[33m88ad984[m adjusted o1 rate limit
+[33m1a19908[m updated vertex
+[33m15ae9c1[m added vertex provider
+[33mbf4c068[m adjust rate limit
+[33m269d92f[m moved prompt to separate file
+[33m64043f6[m changed redirectTo url
+[33ma71b410[m (attepmt) hotfix auth redirect
+[33m2c50479[m replace user's API keys with E2B_API_KEY when specified
+[33m4c6afa2[m added mistral small
+[33m96b56ad[m updated gemini models (002)
+[33m371c43d[m added artifact_generated event
+[33mc5629fb[m sandbox_created event
+[33m9bbb89d[m posthog iframe recording
+[33m58eb3f5[m identify recurring users in posthog
+[33mcfe3520[m remove PostHog recordCrossOriginIframes
+[33mb0d58f5[m fix user api key
+[33m5faa13b[m lift o1 rate limit
+[33mef73dd1[m made rate-limit adjustable via env variable
+[33m71bbe57[m new env vars
+[33m48ffbe5[m proper o1 implementation
+[33m9fc4f7b[m Added o1 model
+[33m087b033[m Record cross-origin iframes in PostHog
+[33me06b412[m Merge pull request #55 from e2b-dev/shadcn-ny
+[33m6153f4b[m[33m ([m[1;31morigin/shadcn-ny[m[33m)[m fixes build
+[33mbf59091[m darkmode tokens
+[33mb15d77f[m brand colors
+[33m96a0ec9[m shadcn ny theme
+[33mc00221e[m implemented password reset flow
+[33m7b4db73[m auth view options
+[33m7610f91[m added download button
+[33m650eb38[m updated Next.js template to use pages router
+[33me4ab991[m Update README.md
+[33m46d0fb8[m stop on new chat
+[33mcbe536b[m added a new chat button
+[33mbbe807a[m improved multi-modal upload ux
+[33m926bd47[m changed loading state ux
+[33m6683ba6[m multimodal check
+[33m9d1baff[m moved messages logic around
+[33mca50a93[m fixes history
+[33m05f831c[m multi-modal handling
+[33m80110c9[m media-upload (ui)
+[33m58f5205[m added conversational turns
+[33mf8ba594[m auto-scroll chat
+[33mef40890[m automatically switch between code/preview, make it less flaky
+[33m5b2e3b2[m updated code component
+[33m0aa1a78[m more concise artifacts title/description
+[33m67c9e22[m apiKey was unused
+[33m26f25b7[m Add compile script
+[33m448a6c4[m Resolve merge conflicts
+[33m14f2306[m Prepare start command script for precompiling nextjs page
+[33m3a0edaa[m added shadcn
+[33mc5ae209[m fixes a type in python templates
+[33m2610c95[m added stop button
+[33m781feaa[m removes redundant line
+[33m7b64817[m added sign_in, sign_out events
+[33mf81aa57[m Bump micromatch from 4.0.7 to 4.0.8
+[33mfc9bc55[m Merge pull request #43 from e2b-dev/posthog
+[33m596a658[m[33m ([m[1;31morigin/posthog[m[33m)[m disable posthog on localhost
+[33m75a55be[m added posthog
+[33me8c80e8[m updated docs
+[33mc5bc1c0[m updated readme
+[33m3c4c22c[m undo the formatting
+[33m2702f00[m formatting again
+[33m531028d[m formatting
+[33m2755f2c[m updated readme
+[33mee1afed[m added fireworks
+[33ma01d078[m Update README.md
+[33m1dcf37e[m updated templates
+[33mae22ffe[m fixes hmr for vue
+[33m8a411ea[m minor oversight
+[33m8516040[m added tailwind support to Vue template
+[33m1f6cf5a[m added Vue.js support
+[33mf8cdf9e[m hide baseURL on prod
+[33m0c6d989[m added baseURL, updated model picker
+[33m30030cc[m some UI upgrades
+[33m06557a9[m added gradio support
+[33m9f595a9[m updated prompts
+[33mbd4a1ca[m templates.json
+[33m3f709f5[m new backend (WIP)
+[33m0bdb914[m Merge pull request #35 from e2b-dev/streaming
+[33m7099a06[m[33m ([m[1;31morigin/streaming[m[33m)[m Update route.ts import
+[33m8888e5e[m Merge branch 'main' into streaming
+[33m15e989d[m stop current generation if another message is submitted
+[33m0dae6da[m streaming messages
+[33mce3af58[m fixes build
+[33mb24a296[m streaming artifacts ui (wip)
+[33m0448384[m template picker (wip)
+[33m1814d24[m new backend (WIP)
+[33m057dc60[m persist selected template in localstorage
+[33m4977037[m added ratelimit with vercel k/v
+[33m96bbe64[m Merge pull request #30 from shreyas-sreedhar/main
+[33mecbbf11[m Fix transparent background issue on Safari
+[33mf4c2e9f[m undo requred tool choice
+[33mbb1d64c[m removed big groq model, adjusted prompt, increased function timeout
+[33mf984107[m Merge pull request #16 from eltociear/patch-1
+[33mc49cb9a[m groq, togetherai API key from env
+[33m45b0959[m Merge pull request #24 from e2b-dev/models
+[33mc81309f[m Merge pull request #25 from e2b-dev/opt-in-supa
+[33ma99b087[m[33m ([m[1;31morigin/opt-in-supa[m[33m)[m interface changes
+[33ma88349b[m[33m ([m[1;31morigin/models[m[33m)[m Merge branch 'main' into models
+[33ma949f20[m updated logos
+[33mb2a1f87[m nowrap for model picker
+[33m8da58a5[m added logos
+[33m4919067[m save chat input between sessions
+[33m84a9ffd[m changed env var for hosted models
+[33m108db2a[m improved model picker with settings
+[33macfd38c[m added ollama models
+[33m6595b22[m Merge pull request #21 from e2b-dev/no-supa
+[33m1383925[m added license
+[33m15dd37a[m[33m ([m[1;31morigin/no-supa[m[33m)[m fixes supabase on localhost
+[33mebdb067[m (wip) added model selector
+[33mb533586[m Merge pull request #20 from e2b-dev/faster-nextjs-sandbox
+[33m3fff124[m[33m ([m[1;31morigin/faster-nextjs-sandbox[m[33m)[m Copy the compile page script to sandbox
+[33mbe44676[m Merge branch 'main' into faster-nextjs-sandbox
+[33m7281670[m Pre-compile nextjs / page when building the sandbox
+[33m4f187e8[m docs: update README.md
+[33mf4f71af[m Merge pull request #15 from e2b-dev/analytics
+[33m672be82[m[33m ([m[1;31morigin/analytics[m[33m)[m Add vercel analytics
+[33m334afe9[m Merge pull request #12 from e2b-dev/auth
+[33m292eb58[m interface changes
+[33m2b74bcd[m[33m ([m[1;31morigin/auth[m[33m)[m updated auth logic
+[33mf8509a7[m added supabase auth
+[33mf8e8159[m Add GitHub header
+[33ma722e6d[m Use better user ID
+[33m495bbe0[m Remove log
+[33ma894a5d[m Udpate favicon
+[33mf5fb3c0[m Ignore types
+[33m91c5282[m Update README.md
+[33m8fdda96[m Update README.md
+[33m11e86bf[m Update preview image
+[33meb2a190[m Add mention about supporting AI-generated streamlit apps
+[33m327d777[m Update README.md
+[33m552558a[m Merge branch 'main' of https://github.com/e2b-dev/ai-artifacts
+[33m7985eb7[m Change title
+[33m546325e[m Update README.md
+[33mbf77e93[m Update readme
+[33m4062008[m wip
+[33meb8860e[m Add xterm css
+[33m81ab52f[m Merge branch 'main' of https://github.com/e2b-dev/ai-artifacts
+[33mbe84ca6[m [WIP] Add terminal
+[33ma540028[m Add code highlight
+[33me1c829b[m Prepare Vercel deployment
+[33m19a265b[m Prepare nextjs developer
+[33m160626a[m Improve file writes [wip]
+[33m12c5f79[m Add nextjs developer
+[33mec418f1[m Update for new SDK
+[33m1f557c6[m Add new E2B SDK [WIP]
+[33m251b45d[m Update
+[33m558b724[m Update readme
+[33mdfaeda4[m Initial commit
